@@ -42,13 +42,13 @@ const Home = () => {
       ref={homeRef}
       initial="hidden"
       animate={isVisible ? "visible" : "hidden"}
-      className={`${theme ? "bg-transparent" : "bg-transparent"} transition-all duration-500 ease-in-out pb-10`}
+      className={`${theme ? "bg-transparent" : "bg-transparent"} transition-all duration-500 ease-in-out pb-10 pt-6`}
     >
 
 
       <motion.div
         variants={bottomVariant}
-        className="pt-25 wrap flex flex-col w-full"
+        className="pt-20 wrap flex flex-col w-full"
       >
         <div className="top items-center text-center justify-center">
           <p className={`${theme ? "text-white" : "text-black"} pb-1`}>
@@ -97,7 +97,7 @@ const Home = () => {
         <motion.div
           variants={bottomVariant}
           transition={{ delay: 0.9 }}
-          className="flex justify-center h-50 sm:h-65 md:h-80 lg:h-100 w-40 sm:w-50 md:w-60 lg:w-72 rounded-b-3xl"
+          className="flex justify-center h-50 sm:h-65 md:h-80 lg:h-100 w-40 sm:w-40 md:w-60 lg:w-72 rounded-b-3xl"
         >
           <img
             className={`${theme ? "border-white" : "border-purple-200"} rounded-t-full border-4 object-cover`}
