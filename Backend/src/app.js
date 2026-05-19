@@ -9,7 +9,7 @@ import cors from "cors";
 const app = express();
 
 app.use(cors({
-    origin: ["https://latest-ten-pi.vercel.app", "https://jigneshvaishna.vercel.app" ,"http://localhost:5173"],
+    origin: ["https://latest-ten-pi.vercel.app", "https://my-portfolio-gt2oms3ep-jigneshramawats-projects.vercel.app" ,"http://localhost:5173"],
     credentials: true,
 }));
 
