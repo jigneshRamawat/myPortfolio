@@ -3,7 +3,7 @@ import { userContext } from "../Context/ContextPage";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 
 const INITIAL_COUNT = 3;
-const api = "https://latest-9qs4.onrender.com";
+const api = "https://myportfolio-zucz.onrender.com";
 
 async function getProject() {
   return await fetch(`${api}/api/project/all`, {
