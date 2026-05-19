@@ -204,7 +204,7 @@ const About = () => {
             <div className={`${theme ? "bg-gray-800" : "bg-gray-50"} one w-full sm:w-1/4 p-4 rounded-2xl text-center`}>
               <i className="text-purple-400 text-3xl ri-user-community-fill"></i>
               <p className={`${theme ? "text-white" : "text-black"} text-sm font-serif pb-1 pt-1`}>Experience</p>
-              <p className="text-gray-400 text-xs">0.6 Years Working</p>
+              <p className="text-gray-400 text-xs">0.7 Years Working</p>
             </div>
 
             <div onClick={goToProject} className={`${theme ? "bg-gray-800" : "bg-gray-50"} cursor-pointer one w-full sm:w-1/4 p-4 rounded-2xl text-center`}>
@@ -213,7 +213,7 @@ const About = () => {
               <p className="text-gray-400 text-xs">4+ Projects</p>
             </div>
 
-            <div onClick={goToContact} className={`${theme ? "bg-gray-800" : "bg-gray-50"} one w-full sm:w-1/4 p-4 cursor-pointer rounded-2xl text-center`}>
+            <div  onClick={goToContact} className={`${theme ? "bg-gray-800" : "bg-gray-50"} one w-full sm:w-1/4 p-4 cursor-pointer rounded-2xl text-center`}>
               <i className="text-purple-400 text-3xl ri-customer-service-2-line"></i>
               <p className={`${theme ? "text-white" : "text-black"} text-sm font-serif pb-1 pt-1`}>Support</p>
               <p className="text-gray-400 text-xs">Online 24/7</p>
